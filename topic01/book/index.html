@@ -2,23 +2,27 @@
  <html>
    <head>
 
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/solarized_light.min.css" rel="stylesheet" />
+     
 
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
+
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/java.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
      <script>hljs.initHighlightingOnLoad();</script>
 
-      <style>
-        
+     
+
+     <style>
+       
 
 body 
 {
@@ -36,23 +40,13 @@ figcaption
   align-items: center;
 }
 
-.credits
-{
-  min-height:20px;
-}
 
 
-    </style>
+     </style>
 
-  </head>
+   </head>
 
   <body>
-
-    
-
-
-
-  <div class="ui container">
     
 
 <style>
@@ -93,47 +87,67 @@ h3
 
 <div class="ui fixed top pointing inverted menu labmenu">
   <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
     <a href="../index.html">
-      <i class="sitemap icon"></i>
-      Introduction to Scratch
+      Session 1:  Intro to Scratch
     </a>
   </header>
   <div class="right tab-menu menu">
     
-      <a class="item" data-tab="Lab-01">
-        Lab-01
-      </a>
+    <a class="item" data-tab="Lab-01">
+      Lab-01
+    </a>
     
-      <a class="item" data-tab="01">
-        01
-      </a>
+    <a class="item" data-tab="01">
+      01
+    </a>
     
-      <a class="item" data-tab="02">
-        02
-      </a>
+    <a class="item" data-tab="02">
+      02
+    </a>
     
-      <a class="item" data-tab="03">
-        03
-      </a>
+    <a class="item" data-tab="03">
+      03
+    </a>
     
-      <a class="item" data-tab="Exercises">
-        Exercises
-      </a>
+    <a class="item" data-tab="Exercises">
+      Exercises
+    </a>
     
-    </div>
+    <a class="item" href="../../index.html">
+      <i class="home icon"></i>
+    </a>
+  </div>
 </div>
 
-<br><br>
-
-  
-  <div  class="ui tab segment lab" data-tab="Lab-01">
-    <h1>Objective</h1>
+<div class="ui segment pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    
+      
+        <a class="active item" href="../../topic01/book/index.html">
+          Lab-01
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic02/book/index.html">
+          Lab-02
+        </a>
+      
+    
+  </div>
+  <div class="pusher">
+    <div class="ui basic segment">
+      <br>
+      
+      <div  class="ui tab segment lab" data-tab="Lab-01">
+        <h1>Objective</h1>
 <p>On completion of this lab you should be familiar with using Scratch to write simple programs demonstrating flow of control (i.e. Sequence, Selection and Iteration) and basic event handling.</p>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="01">
-    <h1>Basic Flow of Control</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="01">
+        <h1>Basic Flow of Control</h1>
 <ul>
 <li><p>Your lecturer will show you how to open up the Scratch editor. </p>
 </li>
@@ -186,10 +200,10 @@ h3
 <li>When the window appears, give your file the name <strong>SomethingFishy1</strong> and click the <strong>Save</strong> button.</li>
 </ul>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="02">
-    <h1>Flow of Control and Event Handling</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="02">
+        <h1>Flow of Control and Event Handling</h1>
 <ul>
 <li>Now that you have successfully written your first Scratch program, we will work on the <strong>SomethingFishy2</strong> exercise from lectures.</li>
 </ul>
@@ -222,10 +236,10 @@ h3
 <li>Save your work, calling the file <strong>SomethingFishy2</strong>.</li>
 </ul>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="03">
-    <h1>More on Flow of Control and Events</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="03">
+        <h1>More on Flow of Control and Events</h1>
 <ul>
 <li>Now that you have successfully written your two Scratch programs, try your hand at the <strong>SomethingFishy3</strong> exercise from lectures.</li>
 </ul>
@@ -253,10 +267,10 @@ h3
 <li>Save your work, calling the file <strong>SomethingFishy3</strong>.</li>
 </ul>
 
-  </div>
- 
-  <div  class="ui tab segment lab" data-tab="Exercises">
-    <h1>Exercise</h1>
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="Exercises">
+        <h1>Exercise</h1>
 <ul>
 <li><p>Create a new Scratch project.</p>
 </li>
@@ -279,58 +293,58 @@ h3
 </li>
 </ul>
 
+      </div>
+     
+    </div>
   </div>
- 
-
-
-<script>
-$('.ui.menu .item')
-  .tab({
-    history: true,
-    historyType: 'hash'
-  })
-;
-</script>
-
-   </div>
-
-   
-  <br><br>
-  <div class="ui bottom fixed borderless menu">
-    <div class="ui small item">
-    <p id="footertext">
-    Prepared by  Dr. Siobhan Drohan (sdrohan@wit.it) and Ms. Mairead Meagher (mmeagher@wit.ie) . Except where otherwise noted, this content is licensed under a
-     <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-       target="_blank">Creative Commons Attribution-NonCommercial 4.0 License
-     </a>
-     </p>
+</div>
+  <div class="ui bottom fixed borderless right menu">
+    <div class="ui right tiny menu">
+      <div class="ui mini message segment">
+        Dr. Siobhan Drohan (sdrohan@wit.it) and Ms. Mairead Meagher (mmeagher@wit.ie) .
+        <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+            target="_blank">Creative Commons License
+        </a>
+      </div>
     </div>
   </div>
 
+    <footer>
+
+    </footer>
     <script>
-      
-$(document).ready(function()
-{
-  $("img").addClass ("ui image");
+      $(document).ready(function () {
+  $('img').addClass('ui image');
   $('.ui.embed').embed();
 
-  var images = $(".lab img");
-  jQuery.each(images, function(i)  {
-    if((images[i].alt).length > 0)
-    {
-      var div_img = $(document.createElement("div")).addClass("ui segment");
-      $(images[i]).wrap(div_img);
-      var div_label = $(document.createElement("div")).addClass("ui ribbon teal top attached label");
-      div_label.append(images[i].alt);
-      $(div_label).insertBefore(images[i]);
+  const $images = $('.lab img');
+  jQuery.each($images, function (i) {
+    if (($images[i].alt).length > 0) {
+      const divImg = $(document.createElement('div')).addClass('ui basic segment');
+      $($images[i]).wrap(divImg);
+      const divLabel = $(document.createElement('div')).addClass('ui blue ribbon label');
+      divLabel.append($images[i].alt);
+      $(divLabel).insertBefore($images[i]);
     }
   });
 
+  $('.ui.embed').embed();
 
-})
+  $('.ui.menu .item')
+      .tab({
+        history: true,
+        historyType: 'hash',
+      });
 
+  $('.popup').popup();
+
+  $('.ui.sidebar')
+      .sidebar({ context: $('.pushable') })
+      .sidebar('setting', 'transition', 'slide out')
+      .sidebar('attach events', '#toc');
+});
 
     </script>
-
   </body>
+
  </html>
